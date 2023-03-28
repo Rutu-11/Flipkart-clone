@@ -258,13 +258,14 @@ li {
 #circle{
   width: 2.8rem;
   position: relative;
-  left: 7rem;
+  left: 10rem;
   height: 47px;
-  top: -389px;
+  top: -257px;
   /* padding: 5px; */
   border-radius: 50%;
   /* background-color: #ccc; */
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
 }
 #circle i{
   position: relative;
