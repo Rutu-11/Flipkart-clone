@@ -230,7 +230,7 @@ let container = document.querySelector('#collection')
         
                             div1.append(img);
                                 i++;
-                        }, 1500)
+                        }, 500)
         
                         img1.addEventListener('mouseout', function(){
                         console.log(id);
