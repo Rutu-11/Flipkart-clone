@@ -4,6 +4,7 @@ let duplicate =[];
 
         let data = await res.json();
         duplicate=[...data];
+        console.log("data",data)
         displayData(data);
     }
     fetchData();
