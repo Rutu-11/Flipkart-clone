@@ -1,6 +1,6 @@
 let duplicate =[];
     async function fetchData(){
-        let res = await fetch('../json/sarees1.json');
+        let res = await fetch('https://rutu-11.github.io/Flipkart-clone/json/sarees1.json');
 
         let data = await res.json();
         duplicate=[...data];
